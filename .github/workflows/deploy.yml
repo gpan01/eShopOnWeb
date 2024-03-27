@@ -20,6 +20,6 @@ jobs:
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: ./main.bicep
                   parameters: 
-                      storageName='staz400lab'
-                      location=
+                      storageName='st2az400lab'
+                      location='centralus'
                   failOnStdErr: false
