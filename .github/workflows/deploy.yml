@@ -21,5 +21,5 @@ jobs:
                   template: ./main.bicep
                   parameters: 
                       storageName='st2az400lab'
-                      location='centralus'
+                      location=centralus
                   failOnStdErr: false
